@@ -21,7 +21,7 @@ print(dust_list[0])
 
 
 dust_dict = {
-    # : 콜론 기준 앞부분 키('서울')는 띄어쓰기 없이 붙여씀
+    # : 콜론 입력시, 앞부분 key('서울')와 : 콜론 사이엔 띄어쓰기 없이 붙여씀
     '서울': 100, 
     '대전': 50,
     '부산': 10,
@@ -48,7 +48,6 @@ while n < 2:
     print(menus[n])
     n = n + 1
 
-
+print()
 for menu in menus:
     print(menu)
-    
